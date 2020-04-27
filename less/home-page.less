@@ -34,13 +34,14 @@
     .img-content {
       width: 48%;
       padding-left: 1%;
+      
+      @media @mobile {
+        width: 100%;
+        padding-left: 0;
+      }
 
       img {
         border-radius: 10px;
-
-        @media @mobile {
-          
-        }
       }
     }
   }
