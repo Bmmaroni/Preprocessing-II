@@ -255,3 +255,14 @@ header nav a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #17A2B8;
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 2rem;
+}
